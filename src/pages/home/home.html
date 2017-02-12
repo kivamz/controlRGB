@@ -5,5 +5,9 @@
 </ion-header>
 
 <ion-content padding>  
-  <h1>¡¡¡Hola mundo!!!</h1>
+  	<h1>Página de inicio</h1>
+	<button ion-button icon-right [outline]="isOutline" (click)='openBluetoothMenu();'>
+		Conectar
+		<ion-icon name="bluetooth"></ion-icon>
+	</button>
 </ion-content>
